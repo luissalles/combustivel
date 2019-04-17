@@ -1,6 +1,8 @@
 package br.gov.serpro.combustivel;
 
 public class ComparadorPrecoCombustivel {
+	public static final String COMPRAR_ETANOL = "Comprar Etanol";
+	
 	PrecoCombustivel precoCombustivel;
 	
 	public ComparadorPrecoCombustivel(PrecoCombustivel precoCombustivel) {
@@ -8,6 +10,6 @@ public class ComparadorPrecoCombustivel {
 	}
 
 	public String resultadoComparacao() {
-		return "Comprar Etanol";
+		return COMPRAR_ETANOL;
 	}
 }
